@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+<meta charset="UTF-8">
+<title>Music Player | Audio Player 🎵</title>
+
+
+<!--字体图标样式-->
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/solid.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css'>
+
+
+<!--布局样式-->
+<link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+
+
+  <div id="app-cover">
+
+      <div id="player">
+        <div id="player-track">
+          <div id="track-time">
+            <!--时间-->
+            <div id="current-time"></div>
+            <div id="track-length"></div>
+          </div>
+          <!--时间进度条-->
+          <div id="s-area">
+            <!--<div id="ins-time"></div>-->
+           <!-- <div id="s-hover"></div>-->
+            <div id="seek-bar"></div>
+          </div>
+        </div>
+
+        <div id="player-content">
+          <div id="album-art">
+            <img src="img/1.jpg" class="active" id="_1">
+
+            <div id="buffer-box">缓冲…</div>
+          </div>
+          <div id="player-controls">
+
+            <div class="control">
+              <div class="button" id="play-pause-button">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+	<script src='js/jquery.min.js'></script>
+	<script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
